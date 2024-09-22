@@ -1,0 +1,12 @@
+Steps to create your repository and send it to github
+git init ==> Create a local git folder which we will connect to our github respository
+git add . ==> Prep everything we want to send to github
+git commit -m "first commit"
+git branch -M main
+git remote add origin <origin link here>
+git push -u origin main
+
+Steps to update a respository on github
+git add . 
+git commit -m "message here"
+git push -u origin main
